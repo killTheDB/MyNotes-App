@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".notesactivity"></activity>
+        <activity android:name=".createnote"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
+        <activity android:name=".notesactivity" />
         <activity android:name=".forgotpassword" />
         <activity android:name=".signup" />
         <activity android:name=".MainActivity">
